@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fff;
+    position: relative;
+}
+
+.app {
+    height: 100%;
+    position: relative;
+    padding-top: 120px;
+}
+
+.main {}
+
+.container {
+    max-width: 1070px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
